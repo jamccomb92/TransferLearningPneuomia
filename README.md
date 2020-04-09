@@ -14,8 +14,10 @@ The gleason_transfer.py is configured to use the model weights of a pretrained m
 
 The other 3 files used the ImageNet weights with their convolutional bases in the file names.
 
-There are also 4 separate log files which contain results of 1 run of each model. In order to visualize the Accuracy, Validation Accuracy, Loss and Validation Loss, the plot.py script can be utilized. 
+There are also 4 separate log files inside the LOGS directory which contain results of 1 run of each model. In order to visualize the Accuracy, Validation Accuracy, Loss and Validation Loss, the plot.py script can be utilized. 
 
 The VGG16 model with ImageNet weights performed the best acheived a validation accuracy of 93.75% and a validation loss of 0.2 before overfitting.
+
+For more information on our project or Transfer Learning, see Applications of Transfer Learning in Pneuomia Diagnosis (PDF).
  
 
